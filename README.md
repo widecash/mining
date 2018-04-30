@@ -2,19 +2,23 @@ Current Version: 2.5.0 (Jun 22, 2017) - Changelog
 Source tarball: https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0.tar.gz
 
 Binaries for Windows:
+
 https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-win32.zip (32-bit)
-https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-win64.zip  (64-bit)
+https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-win64.zip (64-bit)
 
 Binaries for Linux:
+
 https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-linux-x86.tar.gz (x86)
 https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-linux-x86_64.tar.gz (x86-64)
 
 Binaries for Mac OS X:
+
 https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-osx32.zip (32-bit)
 https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0-osx64.zip (64-bit)
 
 SHA-256 Checksums
 Code:
+
 ea16761a952b8f0fbba22fd16d48bb5e20abc48a10af99a00c70c332b3cb54f5  pooler-cpuminer-2.5.0.tar.gz
 c385a7a73730b40548c5c658aa476dd4a95d4629d1c159a1ef830a0068c1c744  pooler-cpuminer-2.5.0-linux-x86.tar.gz
 bf390ab6b801536aca3f8ece535ee71550afdc984ea5de67195b15ff3c248539  pooler-cpuminer-2.5.0-linux-x86_64.tar.gz
@@ -24,11 +28,16 @@ dfa8713404b709f84550dda1af642ca49af72a4ec0e333eb9c3f797ae2554e2e  pooler-cpumine
 4cf4af2ae1d1a42c97b88ca91cfa1b49851efecbb62d6fafe0a5152ffd47fde1  pooler-cpuminer-2.5.0-win64.zip
 
 Basic usage examples
+
 Code:
+
 $ ./minerd --url=http://myminingpool.com:9332 --userpass=my.worker:password
+
 $ ./minerd --url=stratum+tcp://myminingpool.com:3333 --userpass=my.worker:password
+
 For more information:
 Code:
+
 $ ./minerd --help
 
 Building instructions
