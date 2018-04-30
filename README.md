@@ -42,20 +42,28 @@ $ ./minerd --help
 
 Building instructions
 Installing dependencies for building on Debian, Ubuntu and other APT-based distros:
+
 Code:
 $ sudo apt-get install make libcurl4-openssl-dev
 Installing dependencies for building on Fedora, RHEL, CentOS and other yum-based distros:
+
 Code:
 $ sudo yum install gcc make curl-devel
 Installing dependencies for building on OpenSUSE and other ZYpp-based distros:
+
 Code:
 $ sudo zypper in gcc make libcurl-devel
 Recipe for building on Linux:
+
 Code:
 $ wget https://github.com/pooler/cpuminer/releases/download/v2.5.0/pooler-cpuminer-2.5.0.tar.gz
+
 $ tar xzf pooler-cpuminer-*.tar.gz
+
 $ cd cpuminer-*
+
 $ ./configure CFLAGS="-O3"
+
 $ make
 
 
